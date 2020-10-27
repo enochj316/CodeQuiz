@@ -7,7 +7,7 @@ body {
     color: black;
     padding: 80px;
 }
-
+ 
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -16,7 +16,7 @@ body {
     background: rgb(18, 93, 255);
     font-size: 3rem;
     min-width: 80rem;
-}
+} 
 
 .choice-container:hover{
     cursor: pointer;
@@ -43,4 +43,12 @@ body {
     .choice-container {
     min-width: 40rem;
     }
+} */
+
+/* End page CSS */
+
+.end-form-container {
+ width: 100%;
+
+
 }
