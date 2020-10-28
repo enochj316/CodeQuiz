@@ -8,6 +8,8 @@ This was an assignment to create a quiz using CSS, Java and HTML. I wrote this u
 
 The purpose was to create a quiz with a timer fuction and the ability to store high scores in local storage. 
 
+[CodeQuiz](https://enochj316.github.io/github.io.CodeQuiz/)
+
 
 
 
