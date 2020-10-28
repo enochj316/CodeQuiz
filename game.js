@@ -96,7 +96,7 @@ const getNewQuestion = () => {
 
 function answerClick(evt) {
     var correctAnswer = currentQuestion.answer;
-// console.log(evt);
+
 
     if (correctAnswer == this.textContent) {
     
