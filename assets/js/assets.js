@@ -1,8 +1,8 @@
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Is JavaScript a case-sensitive language?",
+        choices: ["Yes", "No", "Sometimes", "ES6"],
+        answer: "Yes"
     },
     {
         title: "The condition in an if / else statement is enclosed within ____.",
@@ -20,9 +20,9 @@ var questions = [
         answer: "vet"
     },
     {
-        title: "JS date function starts in seconds to current day from what day in 1970",
-        choices: ["January 1", "December 31", "June 1", "April 23"],
-        answer: "January 1"
+        title: "How many types of functions JavaScript supports?",
+        choices: ["Named", "Anonymous", "Both", "None"],
+        answer: "Both"
     },
     ///etc.
 ];
