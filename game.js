@@ -58,12 +58,37 @@ var questions = [
 const SCORE_POINT = 100
 const MAX_QUESTIONS = 4
 
+var timeLeft = 75;
+var timerInterval ;
+
 const startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion()
+    startTimer ()
 }
+
+function startTimer () 
+{ 
+   timerInterval = setInterval(function(){ 
+    var TimeLeftArea = document.getElementById("TimeLeft");
+     TimeLeftArea.textContent=timeLeft
+    if (timeLeft===0)
+    {
+        myStopFunction ()
+    }
+    timeLeft--; 
+}, 1000);
+
+
+
+
+}
+
+function myStopFunction() {
+    clearInterval(timerInterval);
+  }
 
 
 const getNewQuestion = () => {
@@ -101,10 +126,12 @@ function answerClick(evt) {
     if (correctAnswer == this.textContent) {
     
         evt.target.style.background= "green";
+        
     }
     else {
 
         evt.target.style.background= "red";
+        timeLeft-=15
    
     }
         setTimeout(() => {
