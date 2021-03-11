@@ -8,7 +8,15 @@ This was an assignment to create a quiz using CSS, Java and HTML. I wrote this u
 
 The purpose was to create a quiz with a timer fuction and the ability to store high scores in local storage. 
 
-[CodeQuiz](https://enochj316.github.io/github.io.CodeQuiz/)
+[CodeQuiz](https://enochj316.github.io/CodeQuiz/)
+
+## DEMO
+
+![DEMO](https://github.com/enochj316/github.io.PasswordGenerator/blob/main/Images/VSC.jpg)
+
+
+
+
 
 
 
