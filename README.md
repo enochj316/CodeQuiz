@@ -12,7 +12,7 @@ The purpose was to create a quiz with a timer fuction and the ability to store h
 
 ## DEMO
 
-![DEMO](https://github.com/enochj316/github.io.PasswordGenerator/blob/main/Images/VSC.jpg)
+![DEMO](https://github.com/enochj316/CodeQuiz/blob/main/assets/images/demo.png)
 
 
 
